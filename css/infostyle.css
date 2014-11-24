@@ -1,0 +1,163 @@
+.inform{
+position:absolute;
+width: 1280px;
+height:970px;
+margin-left: 660px;
+margin-top: 30px;
+}
+.header {
+    position:absolute;
+    background-color: #7734AB;
+	top: 0px;	
+	width: 1280px;
+	height:180px;
+
+}
+.header > h4 {
+color: white;
+font-size: 30px;
+margin-left: 319px;
+margin-top: 52px;
+}
+
+.tabbable{
+font-family: Roboto;
+position: absolute;
+margin-left: 320px;
+margin-top: 128px;
+}
+.tabbable > .nav-tabs{
+border-bottom: 0px;
+border-top: 0px;
+}
+.nav-tabs > li {
+border-top: 0px;
+width: 160px;
+padding-top: 2px;
+}
+li > a {
+color: white;
+}
+.nav-tabs > li > a {
+font-size: 15px;
+font-weight: 500;
+text-align:center;
+height: 50px;
+background-color: #AD85CC;
+}
+.nav > .active {
+    background-color: white;
+    height: 60px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+	margin-bottom: 0px;
+	margin-top: -8px;
+    margin-left: 0px; 
+}
+.nav > .active > a {
+padding-top: 18px;
+}
+.tab-pane  > h3 {
+color: #747474;
+font-size: 20px;
+padding-top: 4px;
+}
+tr > td{
+padding-bottom: 9px;
+width: 160px;
+}
+td > h1 {
+font-size: 14px;
+font-weight:400;
+opacity: 0.5;
+}
+u {
+font-size: 15px;
+vertical-align: -25px;
+}
+table{
+position: absolute;
+top: 107px;
+width: 395px;
+font-size: 14px;
+font-weight:400;
+color: black;
+opacity:0,5;
+}
+.itemsContainer{
+    background-color: #FFFFFF;
+	position: absolute;
+	width: 642px;
+	height: 350px;
+	z-index:0;
+}
+.itemsContainer > h3 {
+font-size: 20px;
+color: #747474;
+margin-bottom: 22px;
+}
+
+.InfoBlock{
+	position: relative;
+	float: left;
+}
+#leftBlock > span {
+    font-size: 15px;
+	font-weight:400;
+	color: black;
+	opacity:0.5;
+}	
+#leftBlock{ 
+	white-space: normal;
+	width: 34%;
+	height: 30px;
+	padding-bottom: 10px;
+}
+#leftBlock > i{
+top: 3px;
+color: #747474;
+font-size: 20px;
+padding-right: 40px;
+}
+
+#rightBlock{
+    font-size: 15px;
+    color: black;
+	width: 55%;
+	padding-bottom: 10px;
+}
+
+.clear {
+	clear: both;
+	height: 55px;
+}
+.clear > hr {
+position: relative;
+bottom: -18px;
+weight:580px;
+}
+.contactMailInBlock, .contactWebBlock{
+	text-decoration: underline;
+}
+
+#footer{
+    position:absolute;
+	background-color: #EEEEEE;
+	height: 112px;
+	width: 1910px;
+	top: 888px;
+    left:30px;
+}
+#footer > span {
+position:absolute;
+font-size: 15px;
+font-weight: 500;
+color: #757575;
+text-align: left;
+padding-left: 20px;
+padding-top:47px;
+}
+
+
+
+	

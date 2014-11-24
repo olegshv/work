@@ -1,0 +1,99 @@
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-theme.css'); 
+@import url('bootstrap/css/font-awesome.css'); 
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,900italic,900,700italic,700,500italic,500,400italic);
+body footer{
+     font-family: Roboto;
+     background-color: #FFFFFF;	
+}
+#wthead {
+    padding-left: 15px;
+}
+.wt {
+	font-family: Roboto;	
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+	background-color: #FAFAFA;
+	width: 240px;
+	height:970px;
+}
+#name {
+	
+    color:#757575;
+    border-bottom: 1px solid #E7E7E7;
+    height: 60px;
+	margin-left:15px;
+    line-height: 60px;
+    text-indent: 20px;	
+	font-weight: 600;
+}
+
+#color {
+	position: relative;
+	font-size: 15px;
+	color: #757575;
+	top: 2px;
+}
+#color:hover  {
+    color: #752FAB;
+}
+.wrap-menu-add {
+	border-bottom: 1px solid #E7E7E7;
+	line-height: 60px;
+	text-indent: 10px;
+	margin-left:15px;
+	height: 61px;
+	width: 240px;
+	display: block;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.wrap-menu {
+    line-height: 50px;
+    text-indent: 10px;
+	margin-left: 15px;
+    height: 50px;
+    width: 240px;
+    display: block;
+}
+.wrap-menu-add  > .glyphicon-plus-sign  {
+	color: #36B340;
+    font-size: 20px;
+	font-weight: 600;
+    top: 5px;	
+}
+
+.wrap-menu:hover {
+    background-color: #E7E7E7;
+	cursor: pointer;
+}
+.text-add {
+
+    margin-left: 23px;
+	font-weight: 500;
+	color: #36B340;
+	font-size: 15px;	
+}
+.text {
+
+    margin-left: 29px;
+	color: #757575;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

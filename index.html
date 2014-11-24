@@ -1,0 +1,206 @@
+<?php header('Content-Type: text/html; charset=utf-8');?>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Timothy Reynolds</title>
+		<!-- стилі блоку керуванням аккаунта -->
+		<link href="css/wtstyle.css" rel="stylesheet"> 
+		<!-- стилі блоку контактів -->
+		<link href="css/contactsstyle.css" rel="stylesheet"> 
+		<!-- стилі інформаційного блоку -->
+		<link href="css/infostyle.css" rel="stylesheet"> 
+        <!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet"> 
+		<link href="bootstrap/css/bootstrap-theme.css" type="text/css" rel="stylesheet"> 
+		<link href="bootstrap/css/font-awesome.css" type="text/css" rel="stylesheet"> 
+		<link href="bootstrap/css/font-awesome.css" type="text/css" rel="stylesheet"> 
+
+		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --> 
+		<!--[if lt IE 9]> 
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+		<![endif]--> 
+
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script> 
+		<script type="text/javascript" src="js/dataWork.js"></script>
+	</head>
+	<body>
+	<!-- Ліва частина сторінки (Аккаунт) -->
+	<div class="wt">
+		<div class="row">
+		    <div id="wthead"><img src="Images/wt.PNG" height="60" width="240" ></div>
+			<div id="name"> Timothy Reynolds </div>
+			<div class="wrap-menu-add">  
+				<i class="glyphicon glyphicon-plus-sign"></i>
+				<span class="text-add">Add item...</span>
+			</div>
+
+			<div class="wrap-menu" id="Accounts">    
+				<i id="color" class="glyphicon glyphicon-list-alt"></i>
+				<span class="text">Accounts</span>
+			</div>
+
+			<div class="wrap-menu" id="Sites">
+				<i id="color" class="fa fa-briefcase"></i>    
+				<span class="text">Sites</span>
+			</div>   
+
+			<div  class="wrap-menu" id="Contacts">    
+				<i id="color" class="glyphicon glyphicon-user"></i>
+				<span class="text">Contacts</span>
+			</div>
+		</div>
+	</div>
+	<!-- Середина сторінки (Контакти) -->	
+	<div class="container-fluid cont">
+	<div id="Cont">Contacts</div>
+	    <div class="dropdown">
+			<button class="btn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+			<p>Newest first &#9660;</p>
+			<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Newest first</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">A-Z sorting</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Featured first</a></li>   
+		    </ul>
+		</div>
+		<div class="search">		   
+		     <label><i class="glyphicon glyphicon-search"></i>
+			 <input type="text" class="form" size="20" maxlength="15" placeholder="Search Anything">
+			 </label>
+		</div>
+        <div class="ContMenu" id="Meagan">
+			<h3>Meagan Fisher</h3>
+			<h2>Technical Lead</h2>
+			<h1>megan.fisher@aig.com &middot; 632-032-1715</h1>
+	    </div>
+		<div class="ContMenu" id="Eddie">
+			<h3>Eddie Lobanovskiy</h3>
+			<h2>Account Manager</h2>
+			<h1>eddie.lobanovskiy@aig.com &middot; 416-596-3000</h1>
+	    </div>
+		<div class="ContMenu" id="Kerem">
+			<h3>Kerem Suer</h3>
+			<h2>Recruitment Specialist</h2>
+			<h1>kerem.suer@aig.com &middot; 604-684-1514</h1>
+	    </div>
+		<div class="ContMenu" id="Dan">
+			<h3>Dan Cederholm</h3>
+			<h2>Account Manager</h2>
+			<h1>dan.cederholm@aig.com &middot; 514-842-0603</h1>
+	    </div>
+	</div>
+	<!-- Права частина сторінки (інформація) -->	
+	<div class="inform">
+		<div class="header ">
+		<h4 class="contactHeaderBlock">&nbsp</h4>
+		</div>
+	
+		<div class="tabbable"> 
+		  <ul class="nav nav-tabs">
+		   <li class="active"><a href="#tab1" data-toggle="tab">Details</a></li>
+		   <li><a href="#tab2" data-toggle="tab">Activities</a></li>
+		  </ul>
+		  <div class="tab-content">
+		  <!-- Вкладка Details -->
+		  <div class="tab-pane active" id="tab1">
+		         <div class="itemsContainer" id="MeaganDiv" style="z-index:1;">
+						<p><h3>Main Info</h3></p>
+						<!------------------------Name-------------------------->
+						<div class="InfoBlock" id="leftBlock">
+							<span>Name</span>
+						</div>
+						<div class="InfoBlock contactNameBlock" id="rightBlock">
+							&nbsp
+						</div>
+						<!------------------------Name-------------------------->
+						<!------------------------Type-------------------------->
+						<div class="InfoBlock" id="leftBlock">
+							<span>Type</span>
+						</div>
+						<div class="InfoBlock contactTypeBlock" id="rightBlock">
+							&nbsp
+						</div>
+						<!------------------------Type-------------------------->
+						<!-----------------------status------------------------->
+						<div class="InfoBlock" id="leftBlock">
+							<span>Status</span>
+						</div>
+						<div class="InfoBlock contactStatusBlock" id="rightBlock">
+							&nbsp
+						</div>
+						<!-----------------------status------------------------->
+						<!---------------------interest in --------------------->
+						<div class="InfoBlock" id="leftBlock">
+							<span>Interested in</span> 
+						</div>
+						<div class="InfoBlock contactInterestedInBlock" id="rightBlock">
+							&nbsp
+						</div>
+						<!---------------------interest in --------------------->
+						<div class="clear"><hr></div>
+						<!------------------------phone------------------------->
+						<div class="InfoBlock" id="leftBlock">
+							<i class="glyphicon glyphicon-earphone"></i> 
+							<span>Phone</span>
+						</div>
+						<div class="InfoBlock contactPhoneBlock" id="rightBlock">
+							&nbsp
+						</div>
+						<!------------------------phone------------------------->
+						<!-------------------------mail------------------------->
+						<div class="InfoBlock" id="leftBlock">
+							<i class="glyphicon glyphicon-envelope"></i> 
+							<span>E-Mail</span>
+						</div>
+						<div class="InfoBlock contactMailInBlock" id="rightBlock">
+							&nbsp
+						</div>
+						<!-------------------------mail------------------------->
+						<!-------------------------web-------------------------->
+						<div class="InfoBlock" id="leftBlock">
+							<i class="glyphicon glyphicon-globe"></i> 
+							<span>Website</span>
+						</div>
+						<div class="InfoBlock contactWebBlock" id="rightBlock">
+							&nbsp
+						</div>
+						<!-------------------------web-------------------------->
+						
+
+				 </div>
+		         <div class="itemsContainer" id="EddieDiv" >
+				 
+				 </div>
+		         <div class="itemsContainer" id="KeremDiv" >
+				
+				 </div>
+				 <div class="itemsContainer" id="DanDiv" >
+				 
+				 </div>
+		  </div>
+		  <!-- Вкладка Activities -->
+		  <div class="tab-pane" id="tab2">
+		      <p><h3>Activities</h3></p>
+			  <table>
+			  <tr><td><h1>Mar 24 2013</h1></td><td><u>TEDX Chicago</u></td></tr>
+			  <tr><td><h1>Apr 15 2012</h1></td><td><u>Competition corner</u></td></tr>
+			  </table>
+		    </div>
+		  </div>
+		</div>
+		
+	</div>
+
+	
+	</body>
+	<footer>
+	<div id="footer">
+	     <span>WT &copy; 2014</span>
+	</div>
+	</footer>
+</html>

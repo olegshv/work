@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,900italic,900,700italic,700,500italic,500,400italic);
+.cont {
+    position: absolute;
+	margin-top: 30px;
+	left: 260px;
+	background-color: #FFFFFF;
+	width: 400px;
+	height:970px;
+}
+#Cont{
+	position: absolute;
+	background-color: #757575;
+	width: 400px;
+	height: 60px;
+	margin-left: -15px;
+	font-family: Roboto;
+	color: white;
+	font-size: 140%;
+	font-weight:500;
+	text-indent: 20px;
+	line-height: 60px;
+}
+.dropdown {
+
+    position: relative;
+	width: 400px;
+	height: 60px;
+	border-bottom: 1px solid #E7E7E7;
+	margin-top: 60px;
+	margin-left: -15px;
+}
+.container-fluid{
+	color:#757575;
+	font-family: Roboto;
+	border-right:1px solid #E7E7E7;
+}
+.btn {
+    border-radius: 0px;
+}
+p{
+	position: relative;
+	width: 215px;
+	text-indent:-108px;
+	z-index: 10000;	
+}
+
+#dropdownMenu1 {
+	color:#757575;
+    position: absolute;
+	font-family: Roboto;
+	border-bottom: 1px solid #E7E7E7;	
+	height:60px;
+	background: #FFFFFF;
+	box-shadow: none;
+	outline: none;
+	line-height: 47px;	
+}
+
+ul.dropdown-menu {
+	position: absolute;
+	margin-top:-59px;
+	border:0px;
+	min-width: 252px;
+	padding-top: 60px;
+	height:207px;
+	border-radius:0px;
+}
+li{
+	margin-left:1px;
+	width: 215px;
+	border-top: 1px solid #E7E7E7;
+	padding-top: 7;
+	padding-bottom: 7;
+}
+.glyphicon-search{
+	padding-top: 5px;
+	font-size: 20px;
+}
+.form{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	height:30px;
+	position: absolute;
+	border: none;
+	margin-left:35px;
+	margin-top: -23px;
+	opacity: 0.8;
+}
+
+.search{
+
+	border-bottom: 1px solid #EDEDED;
+	width: 400px;
+	height: 61px;
+	margin-left: -15px;
+	padding-top:15px;
+	padding-left:15px;
+}
+
+.ContMenu{
+	font-family: Roboto;
+	width: 400px;
+	height:92px;
+	border-bottom: 1px solid #EDEDED;
+	margin-left: -15px;
+	text-indent: 20px;	
+
+}
+.container-fluid >.ContMenu h3{
+	font-size: medium;
+	color: black;
+padding-top: 17px;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+.container-fluid >.ContMenu h2{
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 6px;
+	margin-bottom:0px;
+	color: black;
+
+}
+.container-fluid >.ContMenu h1{
+	font-size: 14px;
+	font-weight:400;
+	color: black;
+	opacity: 0.5;
+	margin-top: 4px;
+	margin-bottom:0px;
+	
+	word-spacing: 5px;
+}
+.ContMenu:hover{
+    background-color: #EDEDED;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
